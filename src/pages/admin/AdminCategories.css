@@ -1,0 +1,9 @@
+.cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.25rem; }
+.cat-admin-card { background: var(--white); border-radius: var(--radius); border: 1px solid #f0e8d8; overflow: hidden; transition: var(--transition); }
+.cat-admin-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.cat-admin-img { height: 130px; overflow: hidden; }
+.cat-admin-img img { width: 100%; height: 100%; object-fit: cover; }
+.cat-admin-body { padding: 0.875rem; }
+.cat-admin-body strong { display: block; font-size: 0.95rem; margin-bottom: 4px; }
+.cat-admin-body p { font-size: 0.78rem; color: var(--textl); }
+.cat-admin-actions { display: flex; gap: 6px; padding: 0 0.875rem 0.875rem; }
